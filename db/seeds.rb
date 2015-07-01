@@ -2,7 +2,7 @@
 
 [
 	{:id => 1, :title => "Apple", :price_per_month => 5.99, :active => true},
-	{:id => 2, :title => "Stripe", :price_per_month => 4.20, :active => true =>
+	{:id => 2, :title => "Stripe", :price_per_month => 4.20, :active => true}
 ].each do |plan|
 	PremiumPlan.create(plan_type: plan[:title], price_per_month: plan[:price_per_month])
 end
