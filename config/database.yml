@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  database: aa_test
+  reconnect: true
+  username:
+  password:
+  encoding: utf8
+  pool: 5

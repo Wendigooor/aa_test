@@ -1,0 +1,22 @@
+
+
+<p>
+	<b>Last 4 weeks (<%= @date_from.strftime('%m/%d/%y') %> - <%= @date_to.strftime('%m/%d/%y') %>)</b>
+</p>
+
+<br>
+
+<p>
+	<b>Revenue <%= @revenue %>$</b>
+</p>
+
+<p>Stripe - <%= @stripe_revenue %>$. Apple - <%= @apple_revenue %>$.</p>
+
+<br>
+
+<p>
+	<b>Premium Users - <%= @subscriptions.count %></b>
+</p>
+
+<p>Stripe - <%= @stripe_subs %>. Apple - <%= @apple_subs %>.</p>
+

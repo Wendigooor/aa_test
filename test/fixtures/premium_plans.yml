@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  label: MyString
+  price_per_month: 9.99
+  type: 
+
+two:
+  label: MyString
+  price_per_month: 9.99
+  type: 
